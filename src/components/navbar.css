@@ -1,0 +1,70 @@
+.logo{
+    max-width: 70px;
+    max-height: 70px;
+    margin: 10px;
+    border: 50px;
+    border-radius: 50%;
+}
+.logoname{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navs{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(38, 186, 186);
+  color: rgb(255, 255, 255);
+}
+.nav-options ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
+  align-items: center;
+}
+.navpart2{
+  justify-content: center;
+  flex-direction: row;
+}
+.nav-options li{
+  list-style:none;
+  margin: 10px;
+  padding:10px;
+  text-decoration: none;
+}
+.logname{
+    font-size: larger;
+    font-weight: 300;
+    box-shadow: inset;
+}
+.reg {
+    color: white;
+    background-color: rgba(104, 85, 224, 1);
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 600;
+    margin: 0 10px;
+    width: 100px;
+    padding: 10px 0;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+    transition: 0.4s;
+}
+  
+.log {
+    color: rgb(104, 85, 224);
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(104, 85, 224, 1);\cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 600;
+    margin: 0 10px;
+    width: 100px;
+    padding: 10px 0;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+    transition: 0.4s;
+  
+}
+  
