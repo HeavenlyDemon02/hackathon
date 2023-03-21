@@ -23,10 +23,10 @@ const navbar = () => {
                 <Link to="/product" style={{ textDecoration: 'none', color:'white', fontWeight:400}}>Products</Link>
               </li>
               <li>
-                <Link to="/add" style={{ textDecoration: 'none', color:'white', fontWeight:400}}>Add</Link>
+                <a href="#Aboutus" style={{ textDecoration: 'none', color:'white', fontWeight:400}}>About Us</a>
               </li>
               <li>
-                <Link to="/update" style={{ textDecoration: 'none', color:'white', fontWeight:400}}>Update</Link>
+                <a href="#foot" style={{ textDecoration: 'none', color:'white', fontWeight:400}}>Contact Us</a>
               </li>
               <li>
                 <div className="signs">

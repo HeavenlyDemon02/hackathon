@@ -3,9 +3,9 @@ import './About.css'
 const About = () => {
   let message = "";
   return (
-    <section className="section-white">
+    <section className="section-white" id="Aboutus">
       <div className="container">
-        <div className="row">
+        <div className="row justify-content-center">
           <div className="col-md-12 text-centre d-flex justify-content-center">
             <h2 className="section-title">THE TEAM BEHIND KRISHAK</h2>
             <p className="section-subtitle">{message}</p>
@@ -77,8 +77,8 @@ const About = () => {
               ></img>
               <h3>PRABHAKAR</h3>
               <div className="team-info">
-                <p>KOISA END DEVELOPER</p>
-                <p>haaaaaaaaaaaaaaaaaaaaa hahhhhhhhhhhshhshs</p>
+                <p>Full Stack Developer</p>
+                <p>Prabhakar is a frontend developer who specializes in web applications. He is responsible for developing and maintaining the client-side of the application.</p>
                 <ul className="team-icon">
                   <li>
                     <a href="#" className="LinkedIn">
@@ -107,7 +107,7 @@ const About = () => {
               <h3>GUNJAN GUPTA</h3>
               <div className="team-info">
                 <p>FRONT END DEVELOPER</p>
-                <p>haaaaaaaaaaaaaaaaaaaaa hahhhhhhhhhhshhshs</p>
+                <p>Gunjan is a frontend developer who specializes in web applications. He is responsible for developing and maintaining the client-side of the application.</p>
                 <ul className="team-icon">
                   <li>
                     <a href="#" className="LinkedIn">
@@ -136,7 +136,7 @@ const About = () => {
               <h3>AAKANSHA MISHRA</h3>
               <div className="team-info">
                 <p>FRONT END DEVELOPER</p>
-                <p>haaaaaaaaaaaaaaaaaaaaa hahhhhhhhhhhshhshs</p>
+                <p>Aakansha is a frontend developer who specializes in web applications. He is responsible for developing and maintaining the client-side of the application.</p>
                 <ul className="team-icon">
                   <li>
                     <a href="#" className="LinkedIn">

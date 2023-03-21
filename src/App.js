@@ -5,7 +5,10 @@ import Nav from "./components/navbar";
 import Card from "./components/card";
 import Product from "./components/product";
 import Carousal from "./components/carousal";
+import Updater from "./components/Updater";
 import About from "./components/About";
+import Idea from "./Idea";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
@@ -19,9 +22,10 @@ function App() {
           <Route path="/product/:id" element={<Card />} />
         </Routes>
       </BrowserRouter>
-      {/* <Product /> */}
-      {/* <Carousal/> */}
+      <Carousal/>
+      <Idea />
       <About/>
+      <Footer/>
     </div>
   );
 }
