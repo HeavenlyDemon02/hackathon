@@ -44,6 +44,7 @@ const Card = (req,res) => {
       ₹ <span>3000</span> /day
 		</div>
 		<div class="description">
+			
 			<h3>DESCRIPTION</h3>
 			<p>This tractor features a sturdy chassis, durable tires, and a powerful engine that delivers reliable performance, even in challenging terrain. It also comes equipped with a range of convenient features, including a comfortable seat, intuitive controls, and easy-to-read gauges.</p>
       </div>
